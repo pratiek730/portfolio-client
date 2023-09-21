@@ -1,0 +1,104 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-start;
+    padding: 20px calc(20px + 1vw);
+    font-size: calc(12px + 1vw);
+    
+}
+.navbar-elements-container {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-elements {
+    padding: 10px;
+    text-decoration: none !important;
+    font-size: 1em;
+}
+.navbar-logo {
+    font-size: calc(2.5em + 2vw);
+    flex-shrink: 2;
+    text-decoration: none;
+    font-family: Tangerine;
+    color: black;
+}
+.navbar-container.active-link {
+    color: red
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+
+}
+
+.drop-icon {
+    height: 10px;
+    width: 10px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px calc(20px + 1vw);
+        font-size: calc(10px + .5vw);
+        
+    }
+    .navbar-elements-container {
+        display: flex;
+        flex-shrink: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-elements {
+        padding: 10px;
+        text-decoration: none !important;
+        transition: .1s;
+        font-size: 1em;
+    }
+    .navbar-logo {
+        font-size: calc(2em + 1vw);
+        flex-shrink: 2;
+        text-decoration: none;
+        
+    }
+    .navbar-elements:hover {
+        color: #59ff7d;
+        transition: .5s;
+    }
+    .navbar-container.active  {
+        color: red !important;
+    }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        transition: 1s;
+    
+    }
+}
