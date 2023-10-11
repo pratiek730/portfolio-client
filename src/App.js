@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Routes} from 'react-router-dom'
 import HomePage from './pages/home-page/home-page.component';
 import SkillsPage from './pages/skills-page.component/skills-page.component';
+// import ContactMe from './components/contact-me/contact-me.component';
 
 
 
@@ -16,6 +17,7 @@ function App() {
           <Route path = '/'  element = {<Navbar/>} >
             <Route index element = {<HomePage/>} />
             <Route path='/aboutme' element = {<SkillsPage/>} />
+            {/* <Route path='/contactme' element = {<ContactMe/>} /> */}
           </Route>
         </Routes>
 
