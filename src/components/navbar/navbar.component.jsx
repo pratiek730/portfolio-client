@@ -19,19 +19,13 @@ function Navbar() {
                 <NavLink to="/aboutme" className="navbar-elements"  >
                     About Me
                 </NavLink>
-                {/* <NavLink to="/works" className="navbar-elements" >
-                    Works
-                </NavLink>
-                <NavLink to="/hireme" className="navbar-elements" >
-                    Hire Me
-                </NavLink>
-                <NavLink to="/blog" className="navbar-elements" >
-                    Blog
-                </NavLink> */}
+
+
                 <div className="dropdown">
                     <NavLink className="navbar-elements">Projects <img alt='dropdown' src={DropDownIcon} className='drop-icon' /></NavLink>
                     <div className="dropdown-content">
-                        <NavLink className="navbar-elements" to='http://projectapi.pratiekparashar.com/' >ApiConnect</NavLink>
+                        {/* <NavLink className="navbar-elements" to='http://projectapi.pratiekparashar.com/'>ApiConnect</NavLink> */}
+                        <NavLink className="navbar-elements" to='http://crnecommerce.pratiekparashar.com/'>Ecommerce Clone</NavLink>
                     </div>
                 </div>
             </div>
