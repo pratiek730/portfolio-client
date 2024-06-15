@@ -13,7 +13,7 @@ function SkillsLarge() {
           // title={data.title}
           // description={data.subtitle}
           <div className="skills-large-item" key={data.id}>
-            <img src={data.image} className="skills-large-item-icon"></img>
+            <img src={data.image} alt={data.title} className="skills-large-item-icon"></img>
             <div className="skills-large-item-content">
               <div className="skills-large-item-title">{data.title}</div>
               <div className="skills-large-item-subtitle">{data.subtitle}</div>
