@@ -23,7 +23,7 @@
     font-size: calc(2.5em + 2vw);
     flex-shrink: 2;
     text-decoration: none;
-    font-family: Tangerine;
+    font-family: Oswald;
     color: black;
 }
 .navbar-container.active-link {

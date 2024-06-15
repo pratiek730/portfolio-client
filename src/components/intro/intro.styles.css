@@ -1,62 +1,76 @@
 .intro-container {
-    box-sizing: border-box;
-    height: 20vh;
-    width: 100vw;
-    overflow: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0, 0, 0,.5)),url('../../assets/images/code-820275_1280.jpg');
+  box-sizing: border-box;
+  height: 40vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("../../assets/images/island-7232868.png");
+  background-size: cover;
+  background-position-x: -50%;
+  background-position-y: -50%;
 }
 
 .intro-textbox {
-    width: fit-content;
+  /* width: fit-content;
     height: fit-content;
-    margin : 10% 0 0 25%;
-    padding-top: 0;
-    font-size: 2vw;
-    color: white;
-    font-family: 'Oswald';
+    margin : 10% 0 0 25%; */
+  padding-top: 0;
+  font-size: 3.5vw;
+  color: rgb(255, 255, 255);
+  font-family: "Oswald";
 }
 
 .intro-text-head {
-    font-size: 2em;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  font-size: 2em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .intro-text-sub {
-    font-size: 1em;
-    -webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: black;
+  font-size: 1em;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
 
-
 @media only screen and (min-width: 768px) {
-    .intro-container {
-        box-sizing: border-box;
-        height: 60vh;
-        width: 100vw;
-        overflow: auto;
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0, 0, 0,.5)),url('../../assets/images/code-820275_1280.jpg');
-    }
-    
-    .intro-textbox {
-        width: fit-content;
+  .intro-container {
+    box-sizing: border-box;
+    height: 60vh;
+    width: 100vw;
+    overflow: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+      url("../../assets/images/code-820275_1280.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position-x: 0%;
+    background-position-y: 0%;
+  }
+
+  .intro-textbox {
+    /* width: fit-content;
         height: fit-content;
-        margin : 10% 0 0 25%;
-        padding-top: 0;
-        font-size: 2vw;
-        color: white;
-        font-family: 'Oswald';
-    }
-    
-    .intro-text-head {
-        font-size: 1.7em;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: black;
-    }
-    
-    .intro-text-sub {
-        font-size: .7em;
-        -webkit-text-stroke-width: .5px;
-        -webkit-text-stroke-color: black;
-    }
+        margin : 10% 0 0 25%; */
+    padding-top: 0;
+    font-size: 3vw;
+    color: white;
+    font-family: "Oswald";
+  }
+
+  .intro-text-head {
+    font-size: 1.7em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .intro-text-sub {
+    font-size: 0.7em;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
 }

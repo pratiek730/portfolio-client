@@ -9,7 +9,7 @@ function Navbar() {
 
             <div className='navbar-logo-wrapper'>
                 <NavLink to="/" className='navbar-logo'>
-                    P. Parashar
+                    The Dev Strategist
                 </NavLink>
             </div>
             <div className='navbar-elements-container'>
